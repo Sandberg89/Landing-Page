@@ -109,7 +109,6 @@ button {
   
   .box {
     margin: 40px auto 0 auto;
-    color: blue;
     border: 4px solid #3882F6;
     width: 100px;
     height: 100px;
@@ -149,4 +148,39 @@ button {
 .customer {
     text-align: end;
     margin-bottom: 100px;
+}
+
+/* Part four */
+
+.part-four {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.content-box {
+    width: 50%;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+#signup {
+    border: 2px solid #F9FAF8;
+    margin-right: 5px;
+}
+
+.text-style {
+    color: #F9FAF8;
+    margin-left: 5px;
+}
+
+.header-margin {
+    margin-bottom: 0;
 }
