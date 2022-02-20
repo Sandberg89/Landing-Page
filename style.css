@@ -141,7 +141,7 @@ button {
     margin-top: 100px;
     margin-bottom: 0;
     font-size: 36px;
-    font-style: oblique;
+    font-style: italic;
     color: #1F2937;
 }
 
@@ -184,3 +184,17 @@ button {
 .header-margin {
     margin-bottom: 0;
 }
+
+/* footer */
+.footer {
+    flex: 1;
+    background-color: #1F2937;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
